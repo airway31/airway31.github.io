@@ -1,5 +1,7 @@
 @media only screen and (min-width: 1028px) {
 
+header, footer,nav, main {max-width: 75rem; margin: auto;} /*limit the max width of page */
+
 nav ul {padding-left: 2%;}
 nav li {width: auto;}
 nav a {padding: .5rem 1rem;}
@@ -7,6 +9,8 @@ nav a {padding: .5rem 1rem;}
 main figure {  /*manage the image size adjustment */
     width: 31%;}
 
+div.news {
+    column-count: 3;}   /*divide 3 column */
 
 
 } /* end of media query */

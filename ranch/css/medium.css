@@ -8,5 +8,11 @@ main figure {  /*manage the image size adjustment */
     margin-left: 2%;
 }
 
+div.news {    /*modify the news format */
+ clear: both;
+ column-count: 2;  /*divide 2 column */
+ column-rule: 1px solid #addd;
+}
+
 
 } /* end of media query */
