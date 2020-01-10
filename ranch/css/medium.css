@@ -2,7 +2,11 @@
 
 nav li {float: left; width: 25%;}
 
-
+main figure {  /*manage the image size adjustment */
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+}
 
 
 } /* end of media query */

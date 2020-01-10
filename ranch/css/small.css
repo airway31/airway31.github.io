@@ -34,10 +34,26 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {background-color: #444;}
+nav a:hover {background-color: #444;}  /*when hover over the mouse, it hightlight in black*/
 
 
+/*main rule here */
+main {
+    padding: 1rem 2%;  /*move the content left */
+    display: block 
 
+}
+
+main h1{color: #17a8e4}
+
+main figure img {width: 100%}  /*manage the image size adjustment */
+main figure{
+    width: 100%;
+    margin: 0;
+}
+
+main figcaption {text-align: center; font-size: 
+.8rem;}
 
 
 .clearfix:after {
